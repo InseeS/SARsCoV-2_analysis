@@ -1,0 +1,2249 @@
+{
+  "meta": {
+    "build_url": "https://github.com/myusername/myrepository/",
+    "colorings": [
+      {
+        "key": "clade_membership",
+        "scale": [
+          [
+            "21A (Delta)",
+            "#4783C8"
+          ],
+          [
+            "21I (Delta)",
+            "#539BB5"
+          ],
+          [
+            "21J (Delta)",
+            "#63AC9B"
+          ]
+        ],
+        "title": "Clade",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Sampling date",
+        "type": "continuous"
+      },
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "location",
+        "scale": [
+          [
+            "Wuhan",
+            "#4C90C0"
+          ]
+        ],
+        "title": "Location",
+        "type": "categorical"
+      },
+      {
+        "key": "division",
+        "scale": [
+          [
+            "Hubei",
+            "#4C90C0"
+          ]
+        ],
+        "title": "Admin Division",
+        "type": "categorical"
+      },
+      {
+        "key": "country",
+        "scale": [
+          [
+            "China",
+            "#4C90C0"
+          ]
+        ],
+        "title": "Country",
+        "type": "categorical"
+      },
+      {
+        "key": "region",
+        "scale": [
+          [
+            "Asia",
+            "#4C90C0"
+          ]
+        ],
+        "title": "Region",
+        "type": "categorical"
+      },
+      {
+        "key": "host",
+        "title": "Host",
+        "type": "categorical"
+      },
+      {
+        "key": "age",
+        "title": "Age",
+        "type": "continuous"
+      },
+      {
+        "key": "sex",
+        "title": "Sex",
+        "type": "categorical"
+      },
+      {
+        "key": "author",
+        "title": "Authors",
+        "type": "categorical"
+      },
+      {
+        "key": "originating_lab",
+        "title": "Originating Lab",
+        "type": "categorical"
+      },
+      {
+        "key": "submitting_lab",
+        "title": "Submitting Lab",
+        "type": "categorical"
+      },
+      {
+        "key": "recency",
+        "scale": [
+          [
+            "Older",
+            "#447CCD"
+          ]
+        ],
+        "title": "Submission Date",
+        "type": "categorical"
+      },
+      {
+        "key": "recency",
+        "scale": [
+          [
+            "Older",
+            "#447CCD"
+          ]
+        ],
+        "title": "Submission Date",
+        "type": "categorical"
+      },
+      {
+        "key": "logistic_growth",
+        "title": "logistic_growth",
+        "type": "continuous"
+      },
+      {
+        "key": "S1_mutations",
+        "title": "S1_mutations",
+        "type": "continuous"
+      },
+      {
+        "key": "emerging_lineage",
+        "title": "emerging_lineage",
+        "type": "categorical"
+      },
+      {
+        "key": "current_frequency",
+        "title": "current_frequency",
+        "type": "continuous"
+      },
+      {
+        "key": "mutational_fitness",
+        "title": "mutational_fitness",
+        "type": "continuous"
+      },
+      {
+        "key": "epiweek",
+        "title": "epiweek",
+        "type": "categorical",
+        "scale": [
+          [
+            "201952",
+            "#511EA8"
+          ],
+          [
+            "202128",
+            "#E69036"
+          ],
+          [
+            "202135",
+            "#E56D30"
+          ],
+          [
+            "202136",
+            "#E56D30"
+          ],
+          [
+            "202142",
+            "#DF4428"
+          ],
+          [
+            "202143",
+            "#DF4428"
+          ],
+          [
+            "202144",
+            "#DC2F24"
+          ],
+          [
+            "202145",
+            "#DC2F24"
+          ],
+          [
+            "202146",
+            "#DC2F24"
+          ]
+        ]
+      }
+    ],
+    "description": "This is the description that appears below your visualization in Auspice. Edit me in `my_profiles/example/description.md`.\n",
+    "display_defaults": {
+      "branch_label": "none",
+      "color_by": "division",
+      "distance_measure": "num_date",
+      "geo_resolution": "division",
+      "map_triplicate": true
+    },
+    "filters": [
+      "recency",
+      "location",
+      "division",
+      "country",
+      "region",
+      "host",
+      "author"
+    ],
+    "genome_annotations": {
+      "E": {
+        "end": 26472,
+        "seqid": "MN908947",
+        "start": 26245,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "M": {
+        "end": 27191,
+        "seqid": "MN908947",
+        "start": 26523,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "N": {
+        "end": 29533,
+        "seqid": "MN908947",
+        "start": 28274,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF1a": {
+        "end": 13468,
+        "seqid": "MN908947",
+        "start": 266,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF1b": {
+        "end": 21555,
+        "seqid": "MN908947",
+        "start": 13468,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF3a": {
+        "end": 26220,
+        "seqid": "MN908947",
+        "start": 25393,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF6": {
+        "end": 27387,
+        "seqid": "MN908947",
+        "start": 27202,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF7a": {
+        "end": 27759,
+        "seqid": "MN908947",
+        "start": 27394,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF7b": {
+        "end": 27887,
+        "seqid": "MN908947",
+        "start": 27756,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF8": {
+        "end": 28259,
+        "seqid": "MN908947",
+        "start": 27894,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF9b": {
+        "end": 28577,
+        "seqid": "MN908947",
+        "start": 28284,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "S": {
+        "end": 25384,
+        "seqid": "MN908947",
+        "start": 21563,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 29903,
+        "seqid": "MN908947",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "geo_resolutions": [
+      {
+        "demes": {
+          "Wuhan": {
+            "latitude": 30.554807,
+            "longitude": 114.271501
+          }
+        },
+        "key": "location"
+      },
+      {
+        "demes": {
+          "Hubei": {
+            "latitude": 31.095477,
+            "longitude": 112.676644
+          }
+        },
+        "key": "division"
+      },
+      {
+        "demes": {
+          "China": {
+            "latitude": 33.394333,
+            "longitude": 104.689839
+          }
+        },
+        "key": "country"
+      },
+      {
+        "demes": {
+          "Asia": {
+            "latitude": 30.451098,
+            "longitude": 86.654576
+          }
+        },
+        "key": "region"
+      }
+    ],
+    "maintainers": [
+      {
+        "name": "My name",
+        "url": "www.myurl.com"
+      }
+    ],
+    "panels": [
+      "tree",
+      "map",
+      "entropy",
+      "frequencies"
+    ],
+    "title": "Genomic epidemiology of novel coronavirus - Asia_Thailand_Bangkok-focused subsampling",
+    "updated": "2021-12-15"
+  },
+  "tree": {
+    "branch_attrs": {
+      "labels": {
+        "clade": "19A",
+        "emerging_lineage": "19A"
+      },
+      "mutations": {}
+    },
+    "children": [
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "name": "Wuhan/Hu-1/2019",
+        "node_attrs": {
+          "S1_mutations": {
+            "value": 0.0
+          },
+          "author": {
+            "author": "Zhang et al",
+            "paper_url": "https://dx.doi.org/10.1038/s41586-020-2008-3",
+            "title": "A new coronavirus associated with human respiratory disease in China",
+            "value": "Zhang et al"
+          },
+          "clade_membership": {
+            "value": "19A"
+          },
+          "country": {
+            "confidence": {
+              "China": 1.0
+            },
+            "entropy": -1.000088900581841e-12,
+            "value": "China"
+          },
+          "current_frequency": {
+            "value": 0.0
+          },
+          "div": 0,
+          "division": {
+            "value": "Hubei"
+          },
+          "emerging_lineage": {
+            "value": "19A"
+          },
+          "epiweek": {
+            "value": "201952"
+          },
+          "genbank_accession": {
+            "value": "MN908947.3"
+          },
+          "gisaid_epi_isl": {
+            "value": "EPI_ISL_402125"
+          },
+          "host": {
+            "value": "Human"
+          },
+          "location": {
+            "value": "Wuhan"
+          },
+          "mutational_fitness": {
+            "value": 0.0
+          },
+          "num_date": {
+            "confidence": [
+              2019.9849315068493,
+              2019.9849315068493
+            ],
+            "value": 2019.9849315068493
+          },
+          "originating_lab": {
+            "value": "National Institute for Communicable Disease Control and Prevention (ICDC) Chinese Center for Disease Control and Prevention (China CDC)"
+          },
+          "recency": {
+            "value": "Older"
+          },
+          "region": {
+            "value": "Asia"
+          },
+          "submitting_lab": {
+            "value": "National Institute for Communicable Disease Control and Prevention (ICDC) Chinese Center for Disease Control and Prevention (China CDC)"
+          },
+          "url": "https://www.gisaid.org"
+        }
+      },
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "ORF1a: L2235I, N3833K"
+              },
+              "mutations": {
+                "ORF1a": [
+                  "L2235I",
+                  "N3833K"
+                ],
+                "nuc": [
+                  "C6968A",
+                  "T11764A"
+                ]
+              }
+            },
+            "name": "Wuhan/WH01/2019",
+            "node_attrs": {
+              "S1_mutations": {
+                "value": 0.0
+              },
+              "age": {
+                "value": "44"
+              },
+              "author": {
+                "author": "Weijun Chen et al",
+                "paper_url": "https://dx.doi.org/10.1016/S0140-6736(20)30251-8",
+                "title": "Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding",
+                "value": "Weijun Chen et al"
+              },
+              "clade_membership": {
+                "value": "19A"
+              },
+              "country": {
+                "confidence": {
+                  "China": 1.0
+                },
+                "entropy": -1.000088900581841e-12,
+                "value": "China"
+              },
+              "current_frequency": {
+                "value": 0.0
+              },
+              "div": 2,
+              "division": {
+                "value": "Hubei"
+              },
+              "emerging_lineage": {
+                "value": "19A"
+              },
+              "epiweek": {
+                "value": "201952"
+              },
+              "genbank_accession": {
+                "value": "LR757998.1"
+              },
+              "gisaid_epi_isl": {
+                "value": "EPI_ISL_406798"
+              },
+              "host": {
+                "value": "Human"
+              },
+              "location": {
+                "value": "Wuhan"
+              },
+              "mutational_fitness": {
+                "value": -0.006
+              },
+              "num_date": {
+                "confidence": [
+                  2019.9849315068493,
+                  2019.9849315068493
+                ],
+                "value": 2019.9849315068493
+              },
+              "originating_lab": {
+                "value": "General Hospital of Central Theater Command of People's Liberation Army of China"
+              },
+              "recency": {
+                "value": "Older"
+              },
+              "region": {
+                "value": "Asia"
+              },
+              "sex": {
+                "value": "Male"
+              },
+              "submitting_lab": {
+                "value": "BGI & Institute of Microbiology, Chinese Academy of Sciences & Shandong First Medical University & Shandong Academy of Medical Sciences & General Hospital of Central Theater Command of People's Liberation Army of China"
+              },
+              "url": "https://www.gisaid.org"
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "ORF1b: P314L, G662S, P1000L; S: T19R, E156-, F157-, R158G, L452R, T478K, D614G, P681R, D950N; ORF3a: S26L; M: I82T; ORF7a: V82A, T120I; ORF8: D119-, F120-; N: D63G, R203M, D377Y; ORF9b: T60A",
+                "clade": "21A (Delta)",
+                "emerging_lineage": "21A (Delta)"
+              },
+              "mutations": {
+                "M": [
+                  "I82T"
+                ],
+                "N": [
+                  "D63G",
+                  "R203M",
+                  "D377Y"
+                ],
+                "ORF1b": [
+                  "P314L",
+                  "G662S",
+                  "P1000L"
+                ],
+                "ORF3a": [
+                  "S26L"
+                ],
+                "ORF7a": [
+                  "V82A",
+                  "T120I"
+                ],
+                "ORF8": [
+                  "D119-",
+                  "F120-"
+                ],
+                "ORF9b": [
+                  "T60A"
+                ],
+                "S": [
+                  "T19R",
+                  "E156-",
+                  "F157-",
+                  "R158G",
+                  "L452R",
+                  "T478K",
+                  "D614G",
+                  "P681R",
+                  "D950N"
+                ],
+                "nuc": [
+                  "G210T",
+                  "C241T",
+                  "C3037T",
+                  "C14408T",
+                  "G15451A",
+                  "C16466T",
+                  "C21618G",
+                  "A22029-",
+                  "G22030-",
+                  "T22031-",
+                  "T22032-",
+                  "C22033-",
+                  "A22034-",
+                  "T22917G",
+                  "C22995A",
+                  "A23403G",
+                  "C23604G",
+                  "G24410A",
+                  "C25469T",
+                  "T26767C",
+                  "T27638C",
+                  "C27752T",
+                  "G28248-",
+                  "A28249-",
+                  "T28250-",
+                  "T28251-",
+                  "T28252-",
+                  "C28253-",
+                  "A28271-",
+                  "A28461G",
+                  "G28881T",
+                  "G29402T",
+                  "G29742T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "ORF1a: P1640L, A3209V, V3718A"
+                  },
+                  "mutations": {
+                    "ORF1a": [
+                      "P1640L",
+                      "A3209V",
+                      "V3718A"
+                    ],
+                    "nuc": [
+                      "C5184T",
+                      "C9891T",
+                      "T11418C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "ORF1a: K634Q, N2111T, T3750I, L3930F; S: A222V; ORF3a: P42S",
+                        "clade": "21I (Delta)",
+                        "emerging_lineage": "21I (Delta)"
+                      },
+                      "mutations": {
+                        "ORF1a": [
+                          "K634Q",
+                          "N2111T",
+                          "T3750I",
+                          "L3930F"
+                        ],
+                        "ORF3a": [
+                          "P42S"
+                        ],
+                        "S": [
+                          "A222V"
+                        ],
+                        "nuc": [
+                          "A2165C",
+                          "G4162T",
+                          "A6597C",
+                          "T9976C",
+                          "C11514T",
+                          "C12053T",
+                          "C16954T",
+                          "C22227T",
+                          "T23950C",
+                          "C25516T"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "ORF1a: V1399I, T4249I; S: G446V; ORF9b: R32H"
+                          },
+                          "mutations": {
+                            "ORF1a": [
+                              "V1399I",
+                              "T4249I"
+                            ],
+                            "ORF9b": [
+                              "R32H"
+                            ],
+                            "S": [
+                              "G446V"
+                            ],
+                            "nuc": [
+                              "G4460A",
+                              "A5584G",
+                              "C13011T",
+                              "C13019T",
+                              "C18252T",
+                              "G22899T",
+                              "G28378A"
+                            ]
+                          }
+                        },
+                        "name": "Thailand/LPN_SEQ20431/2021",
+                        "node_attrs": {
+                          "S1_mutations": {
+                            "value": 9.0
+                          },
+                          "clade_membership": {
+                            "value": "21I (Delta)"
+                          },
+                          "current_frequency": {
+                            "value": 0.104969
+                          },
+                          "div": 40,
+                          "emerging_lineage": {
+                            "value": "21I (Delta)"
+                          },
+                          "epiweek": {
+                            "value": "202145"
+                          },
+                          "gisaid_epi_isl": {
+                            "value": "EPI_ISL_6842184"
+                          },
+                          "host": {
+                            "value": "Human"
+                          },
+                          "mutational_fitness": {
+                            "value": 1.1356291
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2021.8534246575343,
+                              2021.8534246575343
+                            ],
+                            "value": 2021.8534246575343
+                          },
+                          "sex": {
+                            "value": "Female"
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "S: N950D"
+                          },
+                          "mutations": {
+                            "S": [
+                              "N950D"
+                            ],
+                            "nuc": [
+                              "A24410G"
+                            ]
+                          }
+                        },
+                        "name": "Thailand/MSN_SEQ20752/2021",
+                        "node_attrs": {
+                          "S1_mutations": {
+                            "value": 8.0
+                          },
+                          "clade_membership": {
+                            "value": "21I (Delta)"
+                          },
+                          "current_frequency": {
+                            "value": 0.168642
+                          },
+                          "div": 34,
+                          "emerging_lineage": {
+                            "value": "21I (Delta)"
+                          },
+                          "epiweek": {
+                            "value": "202145"
+                          },
+                          "gisaid_epi_isl": {
+                            "value": "EPI_ISL_7373678"
+                          },
+                          "host": {
+                            "value": "Human"
+                          },
+                          "mutational_fitness": {
+                            "value": 1.1216819
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2021.8671232876711,
+                              2021.8671232876711
+                            ],
+                            "value": 2021.8671232876711
+                          },
+                          "sex": {
+                            "value": "Female"
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000003",
+                    "node_attrs": {
+                      "S1_mutations": {
+                        "value": 8.0
+                      },
+                      "clade_membership": {
+                        "value": "21I (Delta)"
+                      },
+                      "current_frequency": {
+                        "value": 0.273611
+                      },
+                      "div": 33,
+                      "emerging_lineage": {
+                        "value": "21I (Delta)"
+                      },
+                      "mutational_fitness": {
+                        "value": 1.1559844000000001
+                      },
+                      "num_date": {
+                        "confidence": [
+                          2021.5468607780367,
+                          2021.7985731834124
+                        ],
+                        "value": 2021.6872066621906
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "ORF1a: P309L, H2092Y; ORF1b: H2285Y; ORF7a: L116F; N: L139F, R385K"
+                      },
+                      "mutations": {
+                        "N": [
+                          "L139F",
+                          "R385K"
+                        ],
+                        "ORF1a": [
+                          "P309L",
+                          "H2092Y"
+                        ],
+                        "ORF1b": [
+                          "H2285Y"
+                        ],
+                        "ORF7a": [
+                          "L116F"
+                        ],
+                        "nuc": [
+                          "C1191T",
+                          "C1267T",
+                          "C6539T",
+                          "C9319T",
+                          "T12946C",
+                          "A13482G",
+                          "A20262G",
+                          "C20320T",
+                          "C24745T",
+                          "C27739T",
+                          "G28690T",
+                          "G29427A",
+                          "G29781T"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "S: G142D"
+                          },
+                          "mutations": {
+                            "S": [
+                              "G142D"
+                            ],
+                            "nuc": [
+                              "T1165C",
+                              "G21987A"
+                            ]
+                          }
+                        },
+                        "name": "Thailand/CONI-1261/2021",
+                        "node_attrs": {
+                          "S1_mutations": {
+                            "value": 8.0
+                          },
+                          "clade_membership": {
+                            "value": "21A (Delta)"
+                          },
+                          "current_frequency": {
+                            "value": 0.0
+                          },
+                          "div": 37,
+                          "emerging_lineage": {
+                            "value": "21A (Delta)"
+                          },
+                          "epiweek": {
+                            "value": "202128"
+                          },
+                          "gisaid_epi_isl": {
+                            "value": "EPI_ISL_7171090"
+                          },
+                          "host": {
+                            "value": "Human"
+                          },
+                          "mutational_fitness": {
+                            "value": 1.09750434
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2021.5328767123287,
+                              2021.5328767123287
+                            ],
+                            "value": 2021.5328767123287
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "ORF1a: D1228G; ORF3a: W45L; ORF7b: M24L; N: D402Y"
+                              },
+                              "mutations": {
+                                "N": [
+                                  "D402Y"
+                                ],
+                                "ORF1a": [
+                                  "D1228G"
+                                ],
+                                "ORF3a": [
+                                  "W45L"
+                                ],
+                                "ORF7b": [
+                                  "M24L"
+                                ],
+                                "nuc": [
+                                  "A3948G",
+                                  "T8941C",
+                                  "A13587G",
+                                  "G25526T",
+                                  "A27825T",
+                                  "G29477T",
+                                  "C29738T"
+                                ]
+                              }
+                            },
+                            "name": "Thailand/PLK_SEQ20651/2021",
+                            "node_attrs": {
+                              "S1_mutations": {
+                                "value": 7.0
+                              },
+                              "clade_membership": {
+                                "value": "21A (Delta)"
+                              },
+                              "current_frequency": {
+                                "value": 0.047646
+                              },
+                              "div": 43,
+                              "emerging_lineage": {
+                                "value": "21A (Delta)"
+                              },
+                              "epiweek": {
+                                "value": "202144"
+                              },
+                              "gisaid_epi_isl": {
+                                "value": "EPI_ISL_7373613"
+                              },
+                              "host": {
+                                "value": "Human"
+                              },
+                              "mutational_fitness": {
+                                "value": 1.057805614
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2021.8342465753424,
+                                  2021.8342465753424
+                                ],
+                                "value": 2021.8342465753424
+                              },
+                              "sex": {
+                                "value": "Female"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "ORF1a: S308L; N: S202I; ORF9b: A75V"
+                                  },
+                                  "mutations": {
+                                    "N": [
+                                      "S202I"
+                                    ],
+                                    "ORF1a": [
+                                      "S308L"
+                                    ],
+                                    "ORF9b": [
+                                      "A75V"
+                                    ],
+                                    "nuc": [
+                                      "C1188T",
+                                      "C15141T",
+                                      "C28507T",
+                                      "G28878T"
+                                    ]
+                                  }
+                                },
+                                "name": "Thailand/LPN_SEQ20430/2021",
+                                "node_attrs": {
+                                  "S1_mutations": {
+                                    "value": 7.0
+                                  },
+                                  "clade_membership": {
+                                    "value": "21A (Delta)"
+                                  },
+                                  "current_frequency": {
+                                    "value": 0.08503
+                                  },
+                                  "div": 40,
+                                  "emerging_lineage": {
+                                    "value": "21A (Delta)"
+                                  },
+                                  "epiweek": {
+                                    "value": "202144"
+                                  },
+                                  "gisaid_epi_isl": {
+                                    "value": "EPI_ISL_6842183"
+                                  },
+                                  "host": {
+                                    "value": "Human"
+                                  },
+                                  "mutational_fitness": {
+                                    "value": 1.0601574400000002
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2021.8479452054794,
+                                      2021.8479452054794
+                                    ],
+                                    "value": 2021.8479452054794
+                                  },
+                                  "sex": {
+                                    "value": "Male"
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G27047A"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "ORF1b: R1687C; ORF3a: A54S"
+                                      },
+                                      "mutations": {
+                                        "ORF1b": [
+                                          "R1687C"
+                                        ],
+                                        "ORF3a": [
+                                          "A54S"
+                                        ],
+                                        "nuc": [
+                                          "C17172T",
+                                          "C18526T",
+                                          "C22388T",
+                                          "G25552T",
+                                          "C28603T"
+                                        ]
+                                      }
+                                    },
+                                    "name": "Thailand/PKT_SEQ20426/2021",
+                                    "node_attrs": {
+                                      "S1_mutations": {
+                                        "value": 7.0
+                                      },
+                                      "clade_membership": {
+                                        "value": "21A (Delta)"
+                                      },
+                                      "current_frequency": {
+                                        "value": 0.104969
+                                      },
+                                      "div": 42,
+                                      "emerging_lineage": {
+                                        "value": "21A (Delta)"
+                                      },
+                                      "epiweek": {
+                                        "value": "202145"
+                                      },
+                                      "gisaid_epi_isl": {
+                                        "value": "EPI_ISL_6842180"
+                                      },
+                                      "host": {
+                                        "value": "Human"
+                                      },
+                                      "mutational_fitness": {
+                                        "value": 1.06447753
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2021.8534246575343,
+                                          2021.8534246575343
+                                        ],
+                                        "value": 2021.8534246575343
+                                      },
+                                      "sex": {
+                                        "value": "Female"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "ORF1a: E972K, T1055I; N: P199S"
+                                      },
+                                      "mutations": {
+                                        "N": [
+                                          "P199S"
+                                        ],
+                                        "ORF1a": [
+                                          "E972K",
+                                          "T1055I"
+                                        ],
+                                        "nuc": [
+                                          "G3179A",
+                                          "C3429T",
+                                          "C28868T"
+                                        ]
+                                      }
+                                    },
+                                    "name": "Thailand/COVPSU-00363/2021",
+                                    "node_attrs": {
+                                      "S1_mutations": {
+                                        "value": 7.0
+                                      },
+                                      "clade_membership": {
+                                        "value": "21A (Delta)"
+                                      },
+                                      "current_frequency": {
+                                        "value": 0.0
+                                      },
+                                      "div": 40,
+                                      "emerging_lineage": {
+                                        "value": "21A (Delta)"
+                                      },
+                                      "epiweek": {
+                                        "value": "202136"
+                                      },
+                                      "gisaid_epi_isl": {
+                                        "value": "EPI_ISL_6695927"
+                                      },
+                                      "host": {
+                                        "value": "Human"
+                                      },
+                                      "mutational_fitness": {
+                                        "value": 1.07634395
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2021.6780821917807,
+                                          2021.6780821917807
+                                        ],
+                                        "value": 2021.6780821917807
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000006",
+                                "node_attrs": {
+                                  "S1_mutations": {
+                                    "value": 7.0
+                                  },
+                                  "clade_membership": {
+                                    "value": "21A (Delta)"
+                                  },
+                                  "current_frequency": {
+                                    "value": 0.104969
+                                  },
+                                  "div": 37,
+                                  "emerging_lineage": {
+                                    "value": "21A (Delta)"
+                                  },
+                                  "mutational_fitness": {
+                                    "value": 1.06409234
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2021.556085000895,
+                                      2021.6640152605894
+                                    ],
+                                    "value": 2021.6197823650286
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000009",
+                            "node_attrs": {
+                              "S1_mutations": {
+                                "value": 7.0
+                              },
+                              "clade_membership": {
+                                "value": "21A (Delta)"
+                              },
+                              "current_frequency": {
+                                "value": 0.189999
+                              },
+                              "div": 36,
+                              "emerging_lineage": {
+                                "value": "21A (Delta)"
+                              },
+                              "mutational_fitness": {
+                                "value": 1.06409234
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2021.5102681550293,
+                                  2021.642940753238
+                                ],
+                                "value": 2021.580566425892
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000007",
+                        "node_attrs": {
+                          "S1_mutations": {
+                            "value": 7.0
+                          },
+                          "clade_membership": {
+                            "value": "21A (Delta)"
+                          },
+                          "current_frequency": {
+                            "value": 0.237645
+                          },
+                          "div": 36,
+                          "emerging_lineage": {
+                            "value": "21A (Delta)"
+                          },
+                          "mutational_fitness": {
+                            "value": 1.06409234
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2021.4902099052094,
+                              2021.6487137578165
+                            ],
+                            "value": 2021.531428205311
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000004",
+                    "node_attrs": {
+                      "S1_mutations": {
+                        "value": 7.0
+                      },
+                      "clade_membership": {
+                        "value": "21A (Delta)"
+                      },
+                      "current_frequency": {
+                        "value": 0.237645
+                      },
+                      "div": 36,
+                      "emerging_lineage": {
+                        "value": "21A (Delta)"
+                      },
+                      "mutational_fitness": {
+                        "value": 1.06409234
+                      },
+                      "num_date": {
+                        "confidence": [
+                          2021.4579009182905,
+                          2021.5328767123287
+                        ],
+                        "value": 2021.5119187041141
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000002",
+                "node_attrs": {
+                  "S1_mutations": {
+                    "value": 7.0
+                  },
+                  "clade_membership": {
+                    "value": "21A (Delta)"
+                  },
+                  "current_frequency": {
+                    "value": 0.5112559999999999
+                  },
+                  "div": 23,
+                  "emerging_lineage": {
+                    "value": "21A (Delta)"
+                  },
+                  "mutational_fitness": {
+                    "value": 1.0394292
+                  },
+                  "num_date": {
+                    "confidence": [
+                      2020.8204911198538,
+                      2021.3713294069996
+                    ],
+                    "value": 2021.0928594306554
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "ORF1a: A1306S, P2046L, P2287S, V2930L, T3255I, T3646A; ORF1b: A1918V; ORF7b: T40I; N: G215C",
+                    "clade": "21J (Delta)",
+                    "emerging_lineage": "21J (Delta)"
+                  },
+                  "mutations": {
+                    "N": [
+                      "G215C"
+                    ],
+                    "ORF1a": [
+                      "A1306S",
+                      "P2046L",
+                      "P2287S",
+                      "V2930L",
+                      "T3255I",
+                      "T3646A"
+                    ],
+                    "ORF1b": [
+                      "A1918V"
+                    ],
+                    "ORF7b": [
+                      "T40I"
+                    ],
+                    "nuc": [
+                      "G4181T",
+                      "C6402T",
+                      "C7124T",
+                      "C8986T",
+                      "G9053T",
+                      "C10029T",
+                      "A11201G",
+                      "A11332G",
+                      "C19220T",
+                      "C27874T",
+                      "G28916T"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "ORF1b: L829I, S1881-; S: S494L, Q677H; ORF3a: S60Y; N: Q9L; ORF9b: S6C"
+                      },
+                      "mutations": {
+                        "N": [
+                          "Q9L"
+                        ],
+                        "ORF1b": [
+                          "L829I",
+                          "S1881-"
+                        ],
+                        "ORF3a": [
+                          "S60Y"
+                        ],
+                        "ORF9b": [
+                          "S6C"
+                        ],
+                        "S": [
+                          "S494L",
+                          "Q677H"
+                        ],
+                        "nuc": [
+                          "C15952A",
+                          "C18744T",
+                          "A19108-",
+                          "G19109-",
+                          "T19110-",
+                          "C23043T",
+                          "G23593T",
+                          "T25345C",
+                          "C25571A",
+                          "A28299T"
+                        ]
+                      }
+                    },
+                    "name": "Thailand/NST_SEQ20490/2021",
+                    "node_attrs": {
+                      "S1_mutations": {
+                        "value": 9.0
+                      },
+                      "clade_membership": {
+                        "value": "21J (Delta)"
+                      },
+                      "current_frequency": {
+                        "value": 0.104969
+                      },
+                      "div": 38,
+                      "emerging_lineage": {
+                        "value": "21J (Delta)"
+                      },
+                      "epiweek": {
+                        "value": "202145"
+                      },
+                      "gisaid_epi_isl": {
+                        "value": "EPI_ISL_6842211"
+                      },
+                      "host": {
+                        "value": "Human"
+                      },
+                      "mutational_fitness": {
+                        "value": 1.1650304880000002
+                      },
+                      "num_date": {
+                        "confidence": [
+                          2021.8534246575343,
+                          2021.8534246575343
+                        ],
+                        "value": 2021.8534246575343
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "ORF1b: A690S, H1087Y, A2131V; S: T95I; ORF3a: V202L; ORF9b: G38D"
+                      },
+                      "mutations": {
+                        "ORF1b": [
+                          "A690S",
+                          "H1087Y",
+                          "A2131V"
+                        ],
+                        "ORF3a": [
+                          "V202L"
+                        ],
+                        "ORF9b": [
+                          "G38D"
+                        ],
+                        "S": [
+                          "T95I"
+                        ],
+                        "nuc": [
+                          "C13168T",
+                          "G15535T",
+                          "C16726T",
+                          "C19017T",
+                          "C19859T",
+                          "C21637T",
+                          "C21846T",
+                          "C23557T",
+                          "G24124A",
+                          "G25996T",
+                          "G28396A",
+                          "T29846-",
+                          "T29847-",
+                          "T29848-",
+                          "A29849-",
+                          "A29850-",
+                          "T29851-",
+                          "A29852-",
+                          "G29853-",
+                          "C29854-"
+                        ]
+                      }
+                    },
+                    "name": "Thailand/NST_SEQ20482/2021",
+                    "node_attrs": {
+                      "S1_mutations": {
+                        "value": 8.0
+                      },
+                      "clade_membership": {
+                        "value": "21J (Delta)"
+                      },
+                      "current_frequency": {
+                        "value": 0.05382
+                      },
+                      "div": 41,
+                      "emerging_lineage": {
+                        "value": "21J (Delta)"
+                      },
+                      "epiweek": {
+                        "value": "202144"
+                      },
+                      "gisaid_epi_isl": {
+                        "value": "EPI_ISL_6842204"
+                      },
+                      "host": {
+                        "value": "Human"
+                      },
+                      "mutational_fitness": {
+                        "value": 1.19266627
+                      },
+                      "num_date": {
+                        "confidence": [
+                          2021.83698630137,
+                          2021.83698630137
+                        ],
+                        "value": 2021.83698630137
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "ORF1a: T333M, T1496I, A2821V, G3538S; S: V1264L"
+                      },
+                      "mutations": {
+                        "ORF1a": [
+                          "T333M",
+                          "T1496I",
+                          "A2821V",
+                          "G3538S"
+                        ],
+                        "S": [
+                          "V1264L"
+                        ],
+                        "nuc": [
+                          "C1263T",
+                          "C4752T",
+                          "C5497T",
+                          "A7537G",
+                          "C8727T",
+                          "G10877A",
+                          "C12100T",
+                          "A14748G",
+                          "G17679T",
+                          "A18081G",
+                          "G24781A",
+                          "G25352T"
+                        ]
+                      }
+                    },
+                    "name": "Thailand/NST_SEQ20478/2021",
+                    "node_attrs": {
+                      "S1_mutations": {
+                        "value": 7.0
+                      },
+                      "clade_membership": {
+                        "value": "21J (Delta)"
+                      },
+                      "current_frequency": {
+                        "value": 0.037007
+                      },
+                      "div": 43,
+                      "emerging_lineage": {
+                        "value": "21J (Delta)"
+                      },
+                      "epiweek": {
+                        "value": "202143"
+                      },
+                      "gisaid_epi_isl": {
+                        "value": "EPI_ISL_6842198"
+                      },
+                      "host": {
+                        "value": "Human"
+                      },
+                      "mutational_fitness": {
+                        "value": 1.1626609628
+                      },
+                      "num_date": {
+                        "confidence": [
+                          2021.8287671232877,
+                          2021.8287671232877
+                        ],
+                        "value": 2021.8287671232877
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "ORF1a: T1840I, Q2840R; ORF1b: D816G, A2589V; M: I201V"
+                      },
+                      "mutations": {
+                        "M": [
+                          "I201V"
+                        ],
+                        "ORF1a": [
+                          "T1840I",
+                          "Q2840R"
+                        ],
+                        "ORF1b": [
+                          "D816G",
+                          "A2589V"
+                        ],
+                        "nuc": [
+                          "C66T",
+                          "T2125C",
+                          "C5784T",
+                          "A8784G",
+                          "A15914G",
+                          "C21233T",
+                          "A27123G",
+                          "C27143T",
+                          "C28606T",
+                          "C29095T",
+                          "C29218T"
+                        ]
+                      }
+                    },
+                    "name": "Thailand/MSN_SEQ20753/2021",
+                    "node_attrs": {
+                      "S1_mutations": {
+                        "value": 7.0
+                      },
+                      "clade_membership": {
+                        "value": "21J (Delta)"
+                      },
+                      "current_frequency": {
+                        "value": 0.183753
+                      },
+                      "div": 41,
+                      "emerging_lineage": {
+                        "value": "21J (Delta)"
+                      },
+                      "epiweek": {
+                        "value": "202146"
+                      },
+                      "gisaid_epi_isl": {
+                        "value": "EPI_ISL_7373679"
+                      },
+                      "host": {
+                        "value": "Human"
+                      },
+                      "mutational_fitness": {
+                        "value": 1.1891188
+                      },
+                      "num_date": {
+                        "confidence": [
+                          2021.8698630136987,
+                          2021.8698630136987
+                        ],
+                        "value": 2021.8698630136987
+                      },
+                      "sex": {
+                        "value": "Female"
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "ORF1a: E148G; S: T95I; ORF3a: L140F; E: V62F"
+                      },
+                      "mutations": {
+                        "E": [
+                          "V62F"
+                        ],
+                        "ORF1a": [
+                          "E148G"
+                        ],
+                        "ORF3a": [
+                          "L140F"
+                        ],
+                        "S": [
+                          "T95I"
+                        ],
+                        "nuc": [
+                          "A708G",
+                          "C1825T",
+                          "G16914T",
+                          "T17748A",
+                          "C21846T",
+                          "C25810T",
+                          "G26428T",
+                          "C26873T"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "ORF1a: T3095I; ORF1b: V2117L; S: M153I, G1124V; N: P13S"
+                          },
+                          "mutations": {
+                            "N": [
+                              "P13S"
+                            ],
+                            "ORF1a": [
+                              "T3095I"
+                            ],
+                            "ORF1b": [
+                              "V2117L"
+                            ],
+                            "S": [
+                              "M153I",
+                              "G1124V"
+                            ],
+                            "nuc": [
+                              "C1912T",
+                              "G2281A",
+                              "G8548A",
+                              "C9549T",
+                              "C14484T",
+                              "G19816T",
+                              "G22021T",
+                              "G24933T",
+                              "C28310T"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "Thailand/COVPSU-00346/2021",
+                            "node_attrs": {
+                              "S1_mutations": {
+                                "value": 9.0
+                              },
+                              "clade_membership": {
+                                "value": "21J (Delta)"
+                              },
+                              "current_frequency": {
+                                "value": 0.0
+                              },
+                              "div": 47,
+                              "emerging_lineage": {
+                                "value": "21J (Delta)"
+                              },
+                              "epiweek": {
+                                "value": "202135"
+                              },
+                              "gisaid_epi_isl": {
+                                "value": "EPI_ISL_6695862"
+                              },
+                              "host": {
+                                "value": "Human"
+                              },
+                              "mutational_fitness": {
+                                "value": 1.2471212070000002
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2021.6671232876713,
+                                  2021.6671232876713
+                                ],
+                                "value": 2021.6671232876713
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "ORF1a: H1108Y; S: N950D; ORF9b: R13L"
+                              },
+                              "mutations": {
+                                "ORF1a": [
+                                  "H1108Y"
+                                ],
+                                "ORF9b": [
+                                  "R13L"
+                                ],
+                                "S": [
+                                  "N950D"
+                                ],
+                                "nuc": [
+                                  "C3587T",
+                                  "A24410G",
+                                  "G28321T"
+                                ]
+                              }
+                            },
+                            "name": "Thailand/COVPSU-00362/2021",
+                            "node_attrs": {
+                              "S1_mutations": {
+                                "value": 9.0
+                              },
+                              "clade_membership": {
+                                "value": "21J (Delta)"
+                              },
+                              "current_frequency": {
+                                "value": 1e-06
+                              },
+                              "div": 50,
+                              "emerging_lineage": {
+                                "value": "21J (Delta)"
+                              },
+                              "epiweek": {
+                                "value": "202136"
+                              },
+                              "gisaid_epi_isl": {
+                                "value": "EPI_ISL_6695920"
+                              },
+                              "host": {
+                                "value": "Human"
+                              },
+                              "mutational_fitness": {
+                                "value": 1.2049007370000002
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2021.6890410958904,
+                                  2021.6890410958904
+                                ],
+                                "value": 2021.6890410958904
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000013",
+                        "node_attrs": {
+                          "S1_mutations": {
+                            "value": 9.0
+                          },
+                          "clade_membership": {
+                            "value": "21J (Delta)"
+                          },
+                          "current_frequency": {
+                            "value": 1e-06
+                          },
+                          "div": 47,
+                          "emerging_lineage": {
+                            "value": "21J (Delta)"
+                          },
+                          "mutational_fitness": {
+                            "value": 1.2471212070000002
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2021.6308242310881,
+                              2021.6671232876713
+                            ],
+                            "value": 2021.662945175153
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "ORF1a: V1583L, T2898I; ORF1b: G2662S"
+                              },
+                              "mutations": {
+                                "ORF1a": [
+                                  "V1583L",
+                                  "T2898I"
+                                ],
+                                "ORF1b": [
+                                  "G2662S"
+                                ],
+                                "nuc": [
+                                  "G5012C",
+                                  "C8958T",
+                                  "G21451A",
+                                  "C24023T"
+                                ]
+                              }
+                            },
+                            "name": "Thailand/Bangkok-RAMA-CMG-0073/2021",
+                            "node_attrs": {
+                              "S1_mutations": {
+                                "value": 8.0
+                              },
+                              "clade_membership": {
+                                "value": "21J (Delta)"
+                              },
+                              "current_frequency": {
+                                "value": 0.013903
+                              },
+                              "div": 42,
+                              "emerging_lineage": {
+                                "value": "21J (Delta)"
+                              },
+                              "epiweek": {
+                                "value": "202142"
+                              },
+                              "gisaid_epi_isl": {
+                                "value": "EPI_ISL_7380074"
+                              },
+                              "host": {
+                                "value": "Human"
+                              },
+                              "mutational_fitness": {
+                                "value": 1.187220627
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2021.809589041096,
+                                  2021.809589041096
+                                ],
+                                "value": 2021.809589041096
+                              },
+                              "sex": {
+                                "value": "Male"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "ORF1b: D1869Y"
+                              },
+                              "mutations": {
+                                "ORF1b": [
+                                  "D1869Y"
+                                ],
+                                "nuc": [
+                                  "G19072T"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "ORF1a: S2804G; ORF7a: T61I"
+                                  },
+                                  "mutations": {
+                                    "ORF1a": [
+                                      "S2804G"
+                                    ],
+                                    "ORF7a": [
+                                      "T61I"
+                                    ],
+                                    "nuc": [
+                                      "A8675G",
+                                      "G10642T",
+                                      "C27575T"
+                                    ]
+                                  }
+                                },
+                                "name": "Thailand/UDN_SEQ20326/2021",
+                                "node_attrs": {
+                                  "S1_mutations": {
+                                    "value": 8.0
+                                  },
+                                  "clade_membership": {
+                                    "value": "21J (Delta)"
+                                  },
+                                  "current_frequency": {
+                                    "value": 0.047646
+                                  },
+                                  "div": 42,
+                                  "emerging_lineage": {
+                                    "value": "21J (Delta)"
+                                  },
+                                  "epiweek": {
+                                    "value": "202144"
+                                  },
+                                  "gisaid_epi_isl": {
+                                    "value": "EPI_ISL_6842141"
+                                  },
+                                  "host": {
+                                    "value": "Human"
+                                  },
+                                  "mutational_fitness": {
+                                    "value": 1.187435457
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2021.8342465753424,
+                                      2021.8342465753424
+                                    ],
+                                    "value": 2021.8342465753424
+                                  },
+                                  "sex": {
+                                    "value": "Female"
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "ORF1b: S638I"
+                                  },
+                                  "mutations": {
+                                    "ORF1b": [
+                                      "S638I"
+                                    ],
+                                    "nuc": [
+                                      "G15380T"
+                                    ]
+                                  }
+                                },
+                                "name": "Thailand/PLK_SEQ20650/2021",
+                                "node_attrs": {
+                                  "S1_mutations": {
+                                    "value": 8.0
+                                  },
+                                  "clade_membership": {
+                                    "value": "21J (Delta)"
+                                  },
+                                  "current_frequency": {
+                                    "value": 0.047646
+                                  },
+                                  "div": 40,
+                                  "emerging_lineage": {
+                                    "value": "21J (Delta)"
+                                  },
+                                  "epiweek": {
+                                    "value": "202144"
+                                  },
+                                  "gisaid_epi_isl": {
+                                    "value": "EPI_ISL_7373612"
+                                  },
+                                  "host": {
+                                    "value": "Human"
+                                  },
+                                  "mutational_fitness": {
+                                    "value": 1.196253587
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2021.8342465753424,
+                                      2021.8342465753424
+                                    ],
+                                    "value": 2021.8342465753424
+                                  },
+                                  "sex": {
+                                    "value": "Female"
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000015",
+                            "node_attrs": {
+                              "S1_mutations": {
+                                "value": 8.0
+                              },
+                              "clade_membership": {
+                                "value": "21J (Delta)"
+                              },
+                              "current_frequency": {
+                                "value": 0.095292
+                              },
+                              "div": 39,
+                              "emerging_lineage": {
+                                "value": "21J (Delta)"
+                              },
+                              "mutational_fitness": {
+                                "value": 1.193435457
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2021.598012919748,
+                                  2021.8028435889034
+                                ],
+                                "value": 2021.7300872999922
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000014",
+                        "node_attrs": {
+                          "S1_mutations": {
+                            "value": 8.0
+                          },
+                          "clade_membership": {
+                            "value": "21J (Delta)"
+                          },
+                          "current_frequency": {
+                            "value": 0.109195
+                          },
+                          "div": 38,
+                          "emerging_lineage": {
+                            "value": "21J (Delta)"
+                          },
+                          "mutational_fitness": {
+                            "value": 1.196220627
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2021.4603196540693,
+                              2021.7114606953553
+                            ],
+                            "value": 2021.6226674709699
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000012",
+                    "node_attrs": {
+                      "S1_mutations": {
+                        "value": 8.0
+                      },
+                      "clade_membership": {
+                        "value": "21J (Delta)"
+                      },
+                      "current_frequency": {
+                        "value": 0.109196
+                      },
+                      "div": 38,
+                      "emerging_lineage": {
+                        "value": "21J (Delta)"
+                      },
+                      "mutational_fitness": {
+                        "value": 1.196220627
+                      },
+                      "num_date": {
+                        "confidence": [
+                          2021.4909098251576,
+                          2021.6535193101115
+                        ],
+                        "value": 2021.5414084493705
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000008",
+                "node_attrs": {
+                  "S1_mutations": {
+                    "value": 7.0
+                  },
+                  "clade_membership": {
+                    "value": "21J (Delta)"
+                  },
+                  "current_frequency": {
+                    "value": 0.48874500000000004
+                  },
+                  "div": 31,
+                  "emerging_lineage": {
+                    "value": "21J (Delta)"
+                  },
+                  "mutational_fitness": {
+                    "value": 1.1677728
+                  },
+                  "num_date": {
+                    "confidence": [
+                      2021.370309873495,
+                      2021.627661938016
+                    ],
+                    "value": 2021.37552537695
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000001",
+            "node_attrs": {
+              "S1_mutations": {
+                "value": 7.0
+              },
+              "clade_membership": {
+                "value": "21A (Delta)"
+              },
+              "current_frequency": {
+                "value": 1.000001
+              },
+              "div": 20,
+              "emerging_lineage": {
+                "value": "21A (Delta)"
+              },
+              "mutational_fitness": {
+                "value": 0.9213330999999999
+              },
+              "num_date": {
+                "confidence": [
+                  2020.644947873155,
+                  2021.2884095612794
+                ],
+                "value": 2020.9368226737472
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000016",
+        "node_attrs": {
+          "S1_mutations": {
+            "value": 0.0
+          },
+          "clade_membership": {
+            "value": "19A"
+          },
+          "country": {
+            "confidence": {
+              "": 0.14851226807646348,
+              "China": 0.8514877319235366
+            },
+            "entropy": 0.42011976289562236,
+            "value": "China"
+          },
+          "current_frequency": {
+            "value": 1.000001
+          },
+          "div": 0,
+          "emerging_lineage": {
+            "value": "19A"
+          },
+          "mutational_fitness": {
+            "value": 0.0
+          },
+          "num_date": {
+            "confidence": [
+              2019.944555489831,
+              2019.9802893301141
+            ],
+            "value": 2019.9639546864494
+          }
+        }
+      }
+    ],
+    "name": "NODE_0000000",
+    "node_attrs": {
+      "S1_mutations": {
+        "value": 0.0
+      },
+      "clade_membership": {
+        "value": "19A"
+      },
+      "country": {
+        "confidence": {
+          "": 0.09148907978442782,
+          "China": 0.9085109202155721
+        },
+        "entropy": 0.30596953982643477,
+        "value": "China"
+      },
+      "current_frequency": {
+        "value": 1.000001
+      },
+      "div": 0,
+      "emerging_lineage": {
+        "value": "19A"
+      },
+      "mutational_fitness": {
+        "value": 0.0
+      },
+      "num_date": {
+        "confidence": [
+          2019.9209151077678,
+          2019.979880343425
+        ],
+        "value": 2019.9477852326693
+      }
+    }
+  },
+  "version": "v2"
+}
